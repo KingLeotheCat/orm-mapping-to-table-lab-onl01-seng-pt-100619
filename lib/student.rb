@@ -21,7 +21,7 @@ def self.create_table
   create table students(id integer primary key, name text, grade text);
   SQL
   DB[:conn].execute(sql)
-require "pry"
+
 end
 
 def self.drop_table
